@@ -82,6 +82,7 @@ body {
   text-transform: uppercase;
   margin: 54px auto;
   color: #ffffff;
+  margin-top:90px;
 }
 
 .film-school h1 {
@@ -166,6 +167,11 @@ li a {
   text-decoration: none;
 }
 
+li a:hover {
+  color: rgba(242, 109, 53, 1);
+  text-decoration: none;
+}
+
 .footer {
   margin-top: 117px;
 }
@@ -182,6 +188,7 @@ li a {
   line-height: 49px;
   letter-spacing: 0.055em;
   color: #ffffff;
+  margin-top:120px;
 }
 @media (max-width: 1200px) {
   .film-making h1 {
@@ -287,5 +294,6 @@ li a {
     line-height: 36px;
     letter-spacing: 0.02em;
     text-align: left;
+    margin-top:60px;
   }
 }
