@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Futura Md BT";
+  src: url("../fonts/FutuMd.ttf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 1) !important;
+  overflow-x: hidden !important;
+  color: #ffffff;
+}
+
+.learn-more a {
+  font-family: Jost;
+  font-size: 1.04em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.055em;
+  color: rgba(255, 249, 246, 1);
+  padding-right: 30px;
+}
+
+.top-image {
+  margin-top: 77px;
+  position: relative;
+}
+
+.top-image img{
+    width:100%;
+}
+
+.btn {
+  border-radius: 21px !important;
+  padding: 10px 28px !important;
+  border: 1.5px solid #ffffff !important;
+}
+
+.book .btn {
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.105em;
+  text-align: center;
+  background: #f26d35;
+  border: none !important;
+}
+
+.watch {
+  position: absolute;
+  bottom: 48px;
+  left: 181px;
+}
+
+.book {
+  position: absolute;
+  bottom: 48px;
+  right: 181px;
+}
+
+.book p {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19.68px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #eeeeee;
+}
+
+.contain{
+max-width:850px;
+margin: auto;
+
+}
+
+.art {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 136%;
+  letter-spacing: 0.085em;
+  color: #ffffff;
+  padding-top: 73px;
+}
+
+.info-buttons{
+margin-top:34px;
+}
+
+.info-btn {
+  font-family: Jost;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.165em;
+  color: #ffffff;
+  background: rgba(181, 185, 202, 0.17);
+  border-radius: 30px;
+  padding: 12px 20px !important;
+  border: none;
+
+}
+
+.summary{
+    font-family: Jost;
+    font-size: 23px;
+    line-height: 192%;
+    display: flex;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;   
+    margin-top: 72px;
+}
+
+.learn{
+font-family: Jost;
+font-weight: bold;
+font-size: 30px;
+line-height: 62.37%;
+letter-spacing: 0.055em;
+color: #FFFFFF;
+margin-top:100px;
+}
+
+.video-sections{
+    color: #ffffff;
+}
+
+.accordion{
+       border: 1px solid white !important;
+ background-color: #ffffff00 !important;
+ font-family: Jost;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
+.arrow-down{
+    transform: rotate(90deg) ;  
+    display: inline-block;    
+}
+
+.trigger{
+height:104px;
+padding:0px 41px;
+
+}
+
+.trigger p{
+    display: inline-block;
+    margin:0;
+}
+
+.duration{
+    display: inline-block;
+    margin-left:auto !important;
+}
+
+.card-body{
+    background-color: #ffffff00 !important;
+     
+}
