@@ -456,6 +456,14 @@ body {
     margin-top: 80px;
   }
 
+  .similar{
+    font-size: 15px;
+
+  }
+
+  .similar img{
+      width:30px;
+  }
   .footer{
   }
 }
