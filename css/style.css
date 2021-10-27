@@ -9,9 +9,8 @@
   margin: 0px;
 }
 
-html{
+html {
   overflow-x: hidden !important;
-
 }
 
 body {
@@ -69,8 +68,18 @@ body {
   text-align: center;
   border-radius: 12px !important;
   padding: 10px 28px !important;
+
 }
 
+button{
+  transition: 0.1s ease-in;
+
+}
+
+button:hover{
+  transform: scale(1.04);
+  transition: 0.4s ease-out;
+}
 .step-up {
   font-family: Jost;
   font-style: normal;
@@ -82,7 +91,7 @@ body {
   text-transform: uppercase;
   margin: 54px auto;
   color: #ffffff;
-  margin-top:90px;
+  margin-top: 90px;
 }
 
 .film-school h1 {
@@ -136,6 +145,15 @@ body {
   color: #fffffc;
 }
 
+.card-text {
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.075em;
+}
+
 .read-more {
   font-size: 14px;
   line-height: 173%;
@@ -173,6 +191,12 @@ li a:hover {
 }
 
 .footer {
+  font-family: Jost;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 279%;
+  letter-spacing: 0.09em;
+  color: #FFFFFF;
   margin-top: 117px;
 }
 
@@ -188,8 +212,17 @@ li a:hover {
   line-height: 49px;
   letter-spacing: 0.055em;
   color: #ffffff;
-  margin-top:120px;
+  margin-top: 120px;
 }
+
+.logo img, .foot-logo img{
+  max-width:166px;
+}
+
+.foot-logo img{
+margin-left:-20px
+}
+
 @media (max-width: 1200px) {
   .film-making h1 {
     font-size: 7vw;
@@ -276,15 +309,37 @@ li a:hover {
 
   .start h1 {
     font-family: Futura Md BT;
-    font-size: 25px;
+    font-size: 5.5vw;
     line-height: 25px;
     letter-spacing: 0.045em;
     text-align: center;
-    margin-top: 86px;
+    margin-top: 36px;
+  }
+
+  .start .btn {
+    margin-top: 28px;
+  }
+
+  .card-text {
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0.01em;
+    text-align: left;
   }
 
   .footer {
-    margin-top: 88px;
+
+font-family: Jost;
+font-style: normal;
+font-size: 16.1096px;
+line-height: 229.5%;
+letter-spacing: 0.09em;
+color: #FFFFFF;
+margin-top: 88px;
+    
   }
 
   .explore-text {
@@ -294,6 +349,6 @@ li a:hover {
     line-height: 36px;
     letter-spacing: 0.02em;
     text-align: left;
-    margin-top:60px;
+    margin-top: 60px;
   }
 }
