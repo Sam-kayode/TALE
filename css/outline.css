@@ -19,6 +19,10 @@ body {
   color: #ffffff;
 }
 
+.logo-img{
+    max-width:166px;
+}
+
 .learn-more a {
   font-family: Jost;
   font-size: 1.04em;
@@ -49,6 +53,8 @@ body {
   padding: 10px 28px !important;
   border: 1.5px solid #ffffff !important;
 }
+
+
 
 .book .btn {
   font-family: Jost;
