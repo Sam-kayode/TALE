@@ -139,6 +139,10 @@ button:hover {
   background-color: rgba(0, 0, 0, 1) !important;
 }
 
+.card img{
+
+}
+
 .description {
   font-family: Futura Md BT;
   font-size: 15px;
