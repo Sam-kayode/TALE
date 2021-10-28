@@ -17,6 +17,24 @@ body {
   background-color: rgba(0, 0, 0, 1) !important;
   overflow-x: hidden !important;
 }
+
+.top-nav {
+  position: fixed;
+  width: 100vw;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: 20;
+}
+
+.learn-more {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.logo-img {
+  max-width: 166px;
+}
+
 .envelope {
   padding: 0px 94px;
 }
@@ -58,9 +76,9 @@ body {
   color: #fff8f5;
 }
 
-.btn {
+button {
   background: rgba(242, 109, 53, 1) !important;
-  font-family: Jost;
+  font-family: Jost !important;
   font-size: 18px;
   font-style: normal;
   font-weight: 500 !important;
@@ -69,15 +87,15 @@ body {
   text-align: center;
   border-radius: 12px !important;
   padding: 10px 28px !important;
-
+  color: black !important;
+  outline: none;
 }
 
-button{
+button {
   transition: 0.1s ease-in;
-
 }
 
-button:hover{
+button:hover {
   transform: scale(1.04);
   transition: 0.4s ease-out;
 }
@@ -151,7 +169,7 @@ button:hover{
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 18px !important;
   letter-spacing: 0.075em;
 }
 
@@ -166,27 +184,28 @@ button:hover{
 .start h1 {
   color: #ffffff;
   font-family: Futura Md BT;
-  font-size: 71px;
+  font-size: 400%;
   line-height: 72px;
   letter-spacing: 0.055em;
   text-align: center;
-  margin-top: 286px;
+  margin-top: 240px;
 }
 
-ul {
+.footer ul {
   list-style: none;
   color: #ffffff;
-  padding: 20px 0px 20px 20px !important;
+  padding: 10px 0px 10px 10px !important;
 }
-li {
-  padding: 20px 0px;
+.footer li {
+  padding: 10px 0px;
+  line-height: 30px;
 }
-li a {
+.footer li a {
   color: white;
   text-decoration: none;
 }
 
-li a:hover {
+.footer li a:hover {
   color: rgba(242, 109, 53, 1);
   text-decoration: none;
 }
@@ -197,7 +216,7 @@ li a:hover {
   font-size: 18px;
   line-height: 279%;
   letter-spacing: 0.09em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 117px;
 }
 
@@ -216,12 +235,31 @@ li a:hover {
   margin-top: 120px;
 }
 
-.logo img, .foot-logo img{
-  max-width:166px;
+.foot-nav {
+  margin-top: 160px;
 }
 
-.foot-logo img{
-margin-left:-20px
+.foot-nav a:hover {
+  color: rgba(242, 109, 53, 1);
+}
+
+.logo img,
+.foot-logo img {
+  max-width: 166px;
+}
+
+.foot-logo img {
+  max-width: 166px;
+  margin-left: -25px;
+}
+
+.pledre-logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.pledre-logo img {
+  max-width: 116px;
 }
 
 @media (max-width: 1200px) {
@@ -231,7 +269,7 @@ margin-left:-20px
   }
 
   .start h1 {
-    font-size: 5vw;
+    font-size: 4.7vw;
     margin-top: 150px;
   }
 }
@@ -258,7 +296,7 @@ margin-left:-20px
     margin: 35px 0px 54px 0px;
   }
 
-  .btn {
+  button {
     background: rgba(242, 109, 53, 1) !important;
     font-family: Jost;
     font-size: 18px;
@@ -332,15 +370,13 @@ margin-left:-20px
   }
 
   .footer {
-
-font-family: Jost;
-font-style: normal;
-font-size: 16.1096px;
-line-height: 229.5%;
-letter-spacing: 0.09em;
-color: #FFFFFF;
-margin-top: 88px;
-    
+    font-family: Jost;
+    font-style: normal;
+    font-size: 16.1096px;
+    line-height: 229.5%;
+    letter-spacing: 0.09em;
+    color: #ffffff;
+    margin-top: 88px;
   }
 
   .explore-text {
@@ -351,5 +387,24 @@ margin-top: 88px;
     letter-spacing: 0.02em;
     text-align: left;
     margin-top: 60px;
+  }
+
+  .foot-nav {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 576px) {
+  .learn-more {
+    top: 10px;
+    right: 0px;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .copyright {
+    display: none;
   }
 }
