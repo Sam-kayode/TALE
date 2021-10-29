@@ -64,13 +64,13 @@ body {
   border-radius: 21px !important;
   padding: 10px 28px !important;
   border: 1.5px solid #ffffff !important;
-  color: black;
+  color: black !important;
 }
 
 .book .btn {
   font-family: Jost;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 550;
   line-height: 22px;
   letter-spacing: 0.105em;
   text-align: center;
@@ -78,7 +78,7 @@ body {
   border: none !important;
 }
 
-.book .btn:hover {
+.book .btn:hover, .book1 .btn:hover {
   transform: scale(1.04);
   transition: 0.3s ease-out;
 }
@@ -88,17 +88,54 @@ body {
   transition: 0.3s ease-out;
 }
 
+.book1{
+    position: absolute;
+    bottom: 48px;
+    right: 140px;
+    font-family: Jost;
+}
+
+.book1 .btn{
+  background: #f26d35;
+  border:none !important;
+}
+
+.book1 p{
+  font-family: Jost;
+font-size: 13px;
+font-style: normal;
+font-weight: 800;
+line-height: 18px;
+letter-spacing: 0.055em;
+text-align: center;
+color: #EEEEEE;
+
+}
+
+
 .watch {
   position: absolute;
   bottom: 48px;
   left: 140px;
   font-family: Jost;
+  
+}
+
+.watch .btn{
+  border-radius: 21px !important;
+}
+
+.watch span{
+  font-family: Jost;
+font-style: normal;
+font-weight: 500;
+text-align: center;
+letter-spacing: 0.095em !important;
 }
 
 .book p {
   font-family: Jost;
   font-style: normal;
-  font-weight: 800;
   font-size: 19.68px;
   line-height: 28px;
   text-align: center;
@@ -256,6 +293,9 @@ body {
 .similar a:hover {
   color: rgba(242, 109, 53, 1);
 }
+.bottom-price{
+  font-family: jost;
+}
 
 .footer {
   padding: 22px 140px 40px 140px;
@@ -303,6 +343,12 @@ body {
   margin-top: 70px;
 }
 
+.instagram{
+ max-width:20px;
+}
+
+
+
 @media (max-width: 1280px) {
   .start {
     font-size: 6vw;
@@ -312,6 +358,7 @@ body {
     padding: 0px 30px;
   }
 }
+
 
 @media (max-width: 768px) {
   .btn {
@@ -324,7 +371,7 @@ body {
     transform: scale(0.7);
   }
 
-  .book .btn:hover {
+  .book .btn:hover,.book1 .btn:hover {
     transform: scale(0.75);
     transition: 0.3s ease-out;
   }
@@ -382,8 +429,12 @@ body {
   }
 
   .footer {
-    font-size: 2.1vw;
+    font-size: 2.1vw; 
+    padding:40px 40px;
+
   }
+
+
 
   .mid-footer li {
     padding: 0px 50px;
@@ -517,3 +568,4 @@ body {
     font-size: 15px;
   }
 }
+
