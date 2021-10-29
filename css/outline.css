@@ -98,6 +98,14 @@ body {
 .book1 .btn{
   background: #f26d35;
   border:none !important;
+  font-family: Jost;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0.105em;
+text-align: center;
+
 }
 
 .book1 p{
@@ -256,7 +264,7 @@ letter-spacing: 0.095em !important;
   background: rgba(242, 109, 53, 1) !important;
   font-family: Jost;
   font-size: 18px;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   letter-spacing: 0.055em;
   border-radius: 12px !important;
   padding: 10px 28px !important;
@@ -294,8 +302,14 @@ letter-spacing: 0.095em !important;
   color: rgba(242, 109, 53, 1);
 }
 .bottom-price{
-  font-family: jost;
-}
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.055em;
+  text-align: center;
+  }
 
 .footer {
   padding: 22px 140px 40px 140px;
@@ -344,9 +358,12 @@ letter-spacing: 0.095em !important;
 }
 
 .instagram{
- max-width:20px;
+ max-width:22px;
 }
 
+.tale-logo img{
+  width:100px;
+}
 
 
 @media (max-width: 1280px) {

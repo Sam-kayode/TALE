@@ -36,7 +36,7 @@ body {
 }
 
 .envelope {
-  padding: 0px 94px;
+  padding: 10px 94px 0px 94px;
 }
 
 .learn-more a {
@@ -52,6 +52,7 @@ body {
 
 .film-making {
   padding: 0px 94px;
+ ;
 }
 
 .film-making-content p {
@@ -224,8 +225,9 @@ button:hover {
   margin-top: 117px;
 }
 
-.copyright {
+.copyright p{
   color: #ffffff;
+  margin:0;
 }
 
 .explore-text {
@@ -247,9 +249,10 @@ button:hover {
   color: rgba(242, 109, 53, 1);
 }
 
-.logo img,
+
 .foot-logo img {
-  max-width: 166px;
+  max-width: 100px;
+  margin-bottom:-15px !important;
 }
 
 .foot-logo img {
@@ -266,6 +269,8 @@ button:hover {
   max-width: 116px;
 }
 
+
+
 @media (max-width: 1200px) {
   .film-making h1 {
     font-size: 7vw;
@@ -275,6 +280,10 @@ button:hover {
   .start h1 {
     font-size: 4.7vw;
     margin-top: 150px;
+  }
+
+  .envelope{
+    padding-top:30px;
   }
 }
 @media (max-width: 768px) {
@@ -405,7 +414,16 @@ button:hover {
   }
 
   .logo img {
-    width: 120px;
+    width: 200px !important;
+    margin-left:-30px;
+  }
+
+  .foot-logo img{
+    max-width:130px !important;
+  }
+
+  .pledre-logo img{
+    max-width:100px !important;
   }
 
   .copyright {
